@@ -1,6 +1,6 @@
 package gestionAgenda;
 
-enum TipoTelefono {
+public enum TipoTelefono {
     CASA,
     TRABAJO,
     PERSONAL,

@@ -1,5 +1,5 @@
 package gestionAgenda;
-class Telefono {
+public class Telefono {
     private String numero;
     private TipoTelefono tipo;
 

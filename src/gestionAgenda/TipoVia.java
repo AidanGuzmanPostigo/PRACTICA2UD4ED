@@ -1,6 +1,6 @@
 package gestionAgenda;
 
-enum TipoVia {
+public enum TipoVia {
     CALLE,
     AVENIDA,
     PLAZA,
