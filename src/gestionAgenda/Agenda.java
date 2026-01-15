@@ -1,7 +1,7 @@
 package gestionAgenda;
 import java.util.ArrayList;
 import java.util.List;
-public class Agenda {
+class Agenda {
     private List<Contacto> contactos;
     private int siguienteId;
 
