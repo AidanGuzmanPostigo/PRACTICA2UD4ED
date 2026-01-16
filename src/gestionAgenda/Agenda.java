@@ -17,7 +17,7 @@ class Agenda {
     }
 
     public void agregarContacto(Contacto c) {
-        this.contactos.add(c);
+    	this.contactos.add(c);
     }
 
     public List<Contacto> listarContactos() {
