@@ -16,8 +16,10 @@ class Agenda {
         return id;
     }
 
-    public void agregarContacto(Contacto c) {
-    	this.contactos.add(c);
+    public Contacto setContacto(int id, String nombre, String apellidos, String email) {
+    	Contacto nuevo = new Contacto(id,nombre,apellidos,email);
+    	this.contactos.add(nuevo);
+    	return nuevo;
     }
 
     public List<Contacto> listarContactos() {
