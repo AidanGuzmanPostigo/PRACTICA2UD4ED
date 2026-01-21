@@ -1,7 +1,7 @@
 package gestionAgenda;
 import java.util.ArrayList;
 import java.util.List;
-class Contacto {
+public class Contacto {
     private int id;
     private String nombre;
     private String apellidos;
@@ -9,7 +9,7 @@ class Contacto {
     private Direccion direccion;
     private List<Telefono> telefonos;
 
-    public Contacto(int id, String nombre, String apellidos, String email) {
+    protected Contacto(int id, String nombre, String apellidos, String email) {
         this.id = id;
         this.nombre = nombre;
         this.apellidos = apellidos;

@@ -7,7 +7,7 @@ class Direccion {
     private String portal;
     private String letra;
 
-    public Direccion(TipoVia tipoVia, int numero, String bloque, String escalera, String portal, String letra) {
+    protected Direccion(TipoVia tipoVia, int numero, String bloque, String escalera, String portal, String letra) {
         this.tipoVia = tipoVia;
         this.numero = numero;
         this.bloque = bloque;

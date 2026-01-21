@@ -1,6 +1,7 @@
-package gestionAgenda;
+package agendaApp;
 import java.util.List;
 import java.util.Scanner;
+import gestionAgenda.*;
 
 public class Main {
 

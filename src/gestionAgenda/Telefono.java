@@ -1,9 +1,9 @@
 package gestionAgenda;
-class Telefono {
+ class Telefono {
     private String numero;
     private TipoTelefono tipo;
 
-    public Telefono(String numero, TipoTelefono tipo) {
+    protected Telefono(String numero, TipoTelefono tipo) {
         this.numero = numero;
         this.tipo = tipo;
     }
